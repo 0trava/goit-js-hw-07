@@ -44,7 +44,7 @@ function oneGalleryImgClick (evt){
     if (!imageSelected){return;}
 
     // --------------------------------------------------------------------------------
-      // створення шаблону випадаючого зображення
+      //Підключенння basicLightbox (модальне вікно)
     const openModulWindow = basicLightbox.create(
         `<img src="${imageSelected}" width="800" height="600">`,
       {
